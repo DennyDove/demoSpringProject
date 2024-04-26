@@ -19,6 +19,9 @@ public class User {
     protected String name;
     protected Integer age;
 
+    @ManyToOne
+    protected Role role;
+
     public User(String name, Integer age) {
         this.name = name;
         this.age = age;
