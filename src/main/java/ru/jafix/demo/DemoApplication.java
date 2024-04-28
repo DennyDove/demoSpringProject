@@ -35,6 +35,7 @@ public class DemoApplication {
 		return args -> {
 			log.info("COMMAND LINE STARTED");
 
+			// Add some changes for brief test
 			/*List<User> users = userRepository.findAll();
 			log.info(users.toString());
 
