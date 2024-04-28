@@ -36,6 +36,7 @@ public class DemoApplication {
 			log.info("COMMAND LINE STARTED");
 
 			// Add some changes for brief test
+			// This change has been performed from a remote repository
 			/*List<User> users = userRepository.findAll();
 			log.info(users.toString());
 
